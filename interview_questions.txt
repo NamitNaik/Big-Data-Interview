@@ -1,0 +1,122 @@
+Interview Questions:
+
+
+PySpark -
+1. What is PySpark?
+2. What is SparkContext, difference between SparkContext & SparkSession?
+3. Different deploy modes in PySpark, explain each one of them.
+4. How is client mode different from cluster mode?
+5. Explain the architecture of PySpark. / What happens after you submit a spark job?
+6. What are broadcast variables? explain its use-case with an example.
+7. What are broadcast joins? in which scenario will you use it?
+8. What is data-skewness? how will you handle it in PySpark?
+9. What is difference between coalesce and repartition? in which case you will use each one of them?
+10. Which operation is expensive - coalesce or repartition and why?
+11. What are RDD's in PySpark?
+12. Whate are Datframes in PySpark?
+13. Draw the architecture of PySpark on a paper and explain it.
+14. Difference between groupBy() and reduceBy() key.
+15. What is spark UDF?
+16. What are hints in PySpark, explain with one example.
+17. Advantages & Disadvantages of using PySpark.
+18. What are some of the optimization techniques used in Spark?
+19. Difference between RDD's, Dataframe & Datasets?
+20. Different types of Joins available in PySpark?
+21. How will you handle null values in PySpark?
+22. Benefit of using PySpark over Map-Reduce/Hadoop?
+23. What are Task & Stages in PySpark?
+24. What do you understand by In-Memory Processing and What is it's benefit over conventional Disk Processing?
+25. Why did we find the need to use Spark?
+26. Explain Lazy Evaluation in PySpark?
+27. What is the default rdd.getNumPartitions() value for your Spark job?
+28. What is partitioning in PySpark?, why do we need to partition the data?
+29. How do we decide that on which column we need to partition the data?
+30. What is repartition in PySpark?, when do we find the need to repartition data?
+31. Which data transformation in PySpark results in data skewness?
+
+
+SQL -
+1. Write query for case statement.
+2. Write query for inserting data from one table to another table?
+3. Difference between rank and dense rank, explain with example.
+4. Explain different types of Joins.
+5. Explain Self Join with an example.
+6. Which join operation is the most expensive and why?
+7. Given two sample datasets, perform all type of joins and predict result.
+8. Difference between truncate and drop command.
+9. What is unique constraint?
+10. Difference between DataLake & Delta Lake.
+11. Difference between WHERE & HAVING clause, in which case you will use each one of them?
+12. Difference between PARTITIONBY & GROUPBY clause, in which case you will use each one of them?
+13. What is Data Dictionary & Data Lineage?
+14. What are ACID properties?
+15. What are Transactional Tables?
+16. How to delete Duplicates from a Table?
+17. Difference between Normal Views & Materialised Views?
+18. Write a query to get sum of a field grouped by another field?
+19. Write a query to get running total form a table?
+20. Write a query to get cities whose temperature dropped below zero degrees for 3 or more consecutive days.
+21. Write a query to display points table of IPL teams, giving ranks to each team based on decreasing order of points (if two teams have same points then consider their NRR in decreasing order)
+22. Difference between inner and full outer join.
+23. What is Normalisation of tables?, when do we find the need to Normalise tables?
+24. What are disadvantages of Normalisation?
+25. At what point we can say that we no longer need to Normalise tables?
+
+
+Hive -
+1. Explain difference between Hive managed and external tables.
+
+
+AWS - 
+1. Explain the AWS architecture of your project.
+2. Explain the orchestration logic of your Data Pipeline in AWS.
+3. What is Step-Function?
+4. What is one limitation of AWS Lambda?
+5. How did you submitted spark jobs in AWS EMR?
+6. What is AWS Glue?
+7. Difference between glue dynamic frame & spark dataframe?
+8. List different ways to create glue data catalog tables.
+9. What is AWS boto3?
+10. What are crawlers in AWS Glue?
+11. What happens in backend when we submit a query in AWS Athena?
+12. How did you established a connection to on prem db from AWS glue?
+13. If max run time for lambda is 15 mins, then how did you orchestrated the long running glue jobs using lambdas and step-function?
+14. Why did you choose AWS Glue over AWS EMR?
+15. What is AWS Redshift Spectrum?
+16. How did you stored & fetched creds/secrets in your AWS ecosystem?
+17. How can you query Glue Data Catalog tables right from your Glue job?
+18. How do you give internet access to your private subnet for some time?
+19. What are various AWS services that we can leverage to bring data from on-prem servers to AWS cloud?
+
+
+Coding - 
+1. Different ways to iterate over a Python dictionary and get the value for a specific key.
+2. Insert a new key-value pair in existing Python dictionary.
+3. Update the existing key with new value in a Python dictionary.
+4. Write a PySpark code to display points table of IPL teams, giving ranks to each team based on decreasing order of points (if two teams 
+   have same points then consider their NRR in decreasing order).
+5. Write a Python code to add individual elements of two list of varying length, for extra elements add it with zero and return a new list.
+6. Write a Python code to check if a given address is IPv4/Ipv6 compatible or Neither of the above.
+7. Write a Python code to find no. of times a string appears in another string.
+
+
+Project Related - 
+1. Draw and Explain your project architecture E2E.
+2. What is the average data size received in incremental loads?
+3. What is the logic used to pick incremental data?
+4. How did you assured the quality of your generated data?
+5. What logic you used to flatten your JSON's in PySpark?
+6. What was the role of audit table in your data pipeline?
+7. What challenges you faced while using AWS Glue? and how did you overcome it?
+8. List some of the optimization techniques that you made use of in your Spark jobs?
+9. How did you developed the SQL from the mapping logic provided to you?
+10. How did you ingested data from on-prem servers to AWS S3 using AWS Glue?
+
+
+Others - 
+1. How will you design your own data warehouse?
+2. What all measures you will take to ensure data quality in your warehouse?
+3. How do you handle high memory consumption in your Linux system?
+4. How do you list active memory processes in Linux system?
+5. How do you kill the active processes in Linux system?
+6. If we do not have any timestamp, pk & wc field on our on-prem data, then how can we ingest that data incrementally to cloud?
