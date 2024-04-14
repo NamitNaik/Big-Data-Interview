@@ -1,4 +1,4 @@
-# Write a python function to find out no.of times the string s2 appears in string s1
+# Write a python function to find out no. of times the string s2 appears in string s1
 
 s1 = "timisverytimidbuthasnotime"
 s2 = "tim"

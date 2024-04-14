@@ -1,4 +1,5 @@
--- Write a query to display points table of IPL teams, giving ranks to each team based on decreasing order of points (if two teams have same points then consider their NRR in decreasing order)
+-- Write a query to display points table of IPL teams, giving ranks to each team based on decreasing order of 
+-- points (if two teams have same points then consider their NRR in decreasing order)
 
 CREATE TABLE IPL (Team VARCHAR(255), M INTEGER, W INTEGER, L INTEGER, NRR FLOAT, Pts INTEGER);
 
