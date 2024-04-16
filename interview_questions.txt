@@ -87,6 +87,17 @@ AWS -
 17. How can you query Glue Data Catalog tables right from your Glue job?
 18. How do you give internet access to your private subnet for some time?
 19. What are various AWS services that we can leverage to bring data from on-prem servers to AWS cloud?
+20. What challenges you faced while using AWS Glue, and how did you overcome it?
+21. Which is the best file format you can use to warehouse data of Redshift tables on S3 and why?
+22. What is the maximum timeout value you can set for AWS Lambda?
+23. Which Python library you can make use of to connect AWS Lambda to S3?
+24. What's the benefit of attaching a VPC to AWS Lambda?
+25. Which is the cheapest S3 storage class provided by AWS?
+26. Which is the service provided by AWS to store credentials?
+27. How can you automatically move your S3 data from standard storage class to glacier archival class after a specified amount of time?
+28. What is the benefit of using AWS Step-Function?
+29. How will you optimise joins between tables in AWS Redshift cluster?
+30. What is DISTKEY & SORTKEY in AWS Redshift?
 
 
 Coding - 
