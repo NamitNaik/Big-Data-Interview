@@ -35,7 +35,7 @@ PySpark -
 31. Which data transformation in PySpark results in data skewness?
 
 
-SQL -
+SQL & RDBMS -
 1. Write query for case statement.
 2. Write query for inserting data from one table to another table?
 3. Difference between rank and dense rank, explain with example.
@@ -122,6 +122,7 @@ Project Related -
 8. List some of the optimization techniques that you made use of in your Spark jobs?
 9. How did you developed the SQL from the mapping logic provided to you?
 10. How did you ingested data from on-prem servers to AWS S3 using AWS Glue?
+11. Considering the max timeout for AWS Lambda is only 15 mins, then how did you used it to orchestrate long running AWS Glue Jobs?
 
 
 Others - 
